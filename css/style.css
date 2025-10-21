@@ -1,0 +1,352 @@
+*{
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    padding: o;
+    margin: 0;
+     background-color:#8b98dc; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #8b98dc; 
+    
+  }
+
+.nav-left a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold; 
+    
+}
+
+.nav-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline; 
+}
+
+.nav-right li {
+    margin-left: 20px;
+     
+}
+
+  
+
+.nav-right a {
+    text-decoration: none;
+    color: #000; 
+    margin-top: 10px;
+}
+
+.nav-right button {
+    background-color: purple; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.nav-right button:hover {
+    background-color: #0056b3; 
+}
+
+  /* contact */
+  
+.contact-form-container {
+    display: flex; /* Flexbox to center form */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#contactForm {
+    background-color: #8b98dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#contactForm h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#contactForm label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: center;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    height: 150px;
+}
+
+#contactForm button[type="submit"],
+#contactForm button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#contactForm button[type="button"] {
+    background-color: #ccc;
+    color: black;
+}
+
+#contactForm button[type="button"]:hover {
+    background-color: #999;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* projects */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #8b98dc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #8b98dc;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.project button {
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project button:hover {
+    background-color: #0056b3;
+}
+
+.project p {
+    margin-top: 10px;
+    color: #757575;
+}
+
+
+
+
+
+/* section one */
+
+.section1{
+    text-align: center;
+    position: relative;
+}
+
+
+.section1 img{
+    width: 100%;
+}
+
+
+.section1 button{
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background-color: purple;
+    padding: 10px 20px;
+    color: wheat;
+    margin: 20px;
+}
+
+.section1 p{
+    font-size: 0.9em;
+    color: #757575;
+    margin: 1em ;
+}
+
+.section1 .loper h1{
+    margin: 5px;
+    font-weight: 800;
+    font-size: 2em;
+    color: purple;
+}
+
+.section1 .loper h3{
+    font-size: large;
+    font-weight: 300;
+}
+
+
+/* section two */
+
+.section2{
+    margin-left: 10px;
+    display: flex;
+}
+
+.blue-stick{
+    width: 10px;
+    height: 70px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.section2 .about p{
+    font-size: 0.9em;
+    color: #757575;
+    margin: 0.2em 0;
+}
+
+.section2 .about h1{
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+/* section three  */
+
+.section3 img{
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.section3 button{
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    margin: 4px 15px;
+    background-color: purple;
+    color: white;
+}
+
+.section3{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+.section3 .react h4, p, button{
+     margin-left: 20px; 
+    
+}
+
+
+.section3 .control h4, p, button{
+    margin-left:20px ;
+}
+
+
+
+/* section four */
+
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    text-align: center;
+  
+}
+
+.section4 img {
+    width: 100%;
+    height: auto; 
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+    max-width: 100px; 
+}
+
+.image-container p {
+    margin-top: 5px; 
+    font-size: 14px; 
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.colon {
+    text-align: center;
+}
+.colon img {
+    width: 20px; 
+    height: auto;
+    color: purple;
+}
+.center-text {
+    display: flex;
+    justify-content: center;
+    width: 20%; 
+    text-align: center;
+    
+}
+.center-text p {
+    margin: 10px;
+    padding: auto;
+}
+
+
